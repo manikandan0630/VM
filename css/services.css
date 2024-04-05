@@ -1,0 +1,108 @@
+*{
+    text-decoration: none;
+    list-style: none;
+    font-family: "Poppins",sans-serif;
+}
+
+/*service style start*/
+.service{
+    width: 90%;
+    margin: 50px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.service h2{
+    font-size: 18px;
+}
+.service p{
+    margin-top: 16px;
+    font-size: 8.9px;
+    text-align: center;
+}
+/*animation*/
+.service h2{
+    background: linear-gradient(90deg,#6272FF,#c00de0);
+    background-repeat: no-repeat;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+    background-size: 0%;
+}
+
+.service h2{
+    animation:service 3s linear infinite alternate  ;
+}
+@keyframes service {
+    0%{
+        background-size: 0%;
+    }
+    40%{
+        background-size: 40%;
+    }
+    100%{
+        background-size: 100%;
+    }
+}
+/*all buttons*/
+ .btns{
+    width: 80px;
+    padding:3px;
+    font-size:10px ;
+    text-align: center;
+    border: none;
+    border-radius: 2.5px;
+    box-shadow: 0 0 2px;
+    background: #ffffff;
+}
+ .btns:hover{
+    color: white;
+    background: linear-gradient(135deg,#6272FF,#c00de0);
+}
+
+/*service style end*/
+
+
+/*our service */
+.our-service{
+    width: 90%;
+    margin: 0 auto;
+    
+}
+
+.our-service-cards {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    gap: 30px;
+}
+
+.our-service h1{
+    text-align: center;
+}
+.our-service-cards .btns{
+    margin-bottom: 10px;
+}
+/* all ervices button hover effect*/
+.our-service-cards .btns:hover{
+    color:white;
+    background:linear-gradient(135deg,#6272FF,#c00de0)
+}
+/* service card parent element*/
+.our-service-cards {
+    margin-top: 50px;
+}
+/*all service card h2 tag*/
+.our-service-cards h2{
+ font-size: 12px;
+}
+/*all service card p tag*/
+.our-service-cards p{
+    margin-top:10px;
+    font-size: 10px;
+    text-align: start;
+}
+.our-service-cards img{
+     border-radius: 5px;
+}
+

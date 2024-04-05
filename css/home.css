@@ -7,7 +7,7 @@
 /*hero section start*/
 .hero {
   display: flex;
-  width: 85%;
+  width: 90%;
   justify-content: center;
   margin: 80px auto;
 }
@@ -15,35 +15,63 @@
 .hero-1 {
   margin: 0 auto;
 }
-.hero-1 .welcome{
-  filter: drop-shadow(0 0 3px rgb(170, 170, 170));
-}
-.vm {
-  background: linear-gradient(60deg, #6272ff, #ad30e0);
-  color: transparent;
-  background-clip: text;
+/*animation*/
+.hero-1 h2 span{
+  background: linear-gradient(90deg,#144deb,#c00de0);
+  background-repeat: no-repeat;
+  -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
-  margin-top: -10px;
-  
+  background-size: 0%;
 }
+
+.hero-1 h2 span:first-child{
+  animation: textColor 3s infinite linear alternate;
+}
+
+.hero-1 h2 span:last-child{
+  animation: textColor2 3s infinite linear alternate;
+}
+
+
+@keyframes textColor{
+  0%{
+    background-size: 0%;
+  }
+  40%{
+    background-size: 100%;
+  }
+  100%{
+    background-size: 100%;
+  }
+}
+@keyframes textColor2{
+  0%{
+    background-size: 0%;
+  }
+  40%{
+    background-size: 0%;
+  }
+  100%{
+    background-size: 100%;
+  }
+}
+
+
 .hero-1 p {
   font-size: 10px;
   margin-top: 35px;
 }
-.hero-1 .button {
-  width: 100px;
-  height: 25px;
-  border-radius: 4px;
-  border: 1px solid transparent;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  background: linear-gradient(#ffffff 0 0) padding-box,
-    linear-gradient(to right, #6272ff, #ad30e0);
-  box-shadow: 0px 0px 4px;
+.hero-1 button {
+  width: 80px;
+  padding: 5px;
+  border-radius: 2.5px;
+  text-align: center;
+  font-size: 10px;
+  border: none;
+  box-shadow: 0px 0px 2px;
   margin-top: 30px;
 }
-.hero-1 .button:hover {
+.hero-1 button:hover {
   background: linear-gradient(to right, #6272ff, #ad30e0);
   color: #ffffff;
 }
@@ -64,7 +92,7 @@ section h2 {
   justify-content: center;
 }
 .details {
-  width: 85%;
+  width: 90%;
   margin: 0 auto;
   display: grid;
   grid-template-columns: auto auto auto;
