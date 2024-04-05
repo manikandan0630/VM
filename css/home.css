@@ -1,0 +1,84 @@
+* {
+  font-family: "Poppins";
+  text-decoration: none !important;
+}
+
+
+/*hero section start*/
+.hero {
+  display: flex;
+  width: 85%;
+  justify-content: center;
+  margin: 80px auto;
+}
+/*hero-1*/
+.hero-1 {
+  margin: 0 auto;
+}
+.hero-1 .welcome{
+  filter: drop-shadow(0 0 3px rgb(170, 170, 170));
+}
+.vm {
+  background: linear-gradient(60deg, #6272ff, #ad30e0);
+  color: transparent;
+  background-clip: text;
+  -webkit-background-clip: text;
+  margin-top: -10px;
+  
+}
+.hero-1 p {
+  font-size: 10px;
+  margin-top: 35px;
+}
+.hero-1 .button {
+  width: 100px;
+  height: 25px;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: linear-gradient(#ffffff 0 0) padding-box,
+    linear-gradient(to right, #6272ff, #ad30e0);
+  box-shadow: 0px 0px 4px;
+  margin-top: 30px;
+}
+.hero-1 .button:hover {
+  background: linear-gradient(to right, #6272ff, #ad30e0);
+  color: #ffffff;
+}
+
+/*hero-2*/
+.hero-2 {
+  margin: 0 auto;
+}
+.hero-2 img {
+  margin: -40px -10px;
+  filter: drop-shadow(0px 4px 4px gray)
+}
+/*hero section end*/
+
+/*details */
+section h2 {
+  display: flex;
+  justify-content: center;
+}
+.details {
+  width: 85%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap: 40px;
+  text-align: center;
+}
+.details h3 {
+  font-size: 12px;
+}
+.details p {
+  font-size: 10px;
+}
+.details i {
+  color: #ad30e0;
+}
+
+

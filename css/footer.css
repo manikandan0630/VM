@@ -1,0 +1,95 @@
+/*footer*/
+
+.foot {
+    width: 85%;
+    margin: 0 auto 10px;
+    display: flex;
+    justify-content: space-evenly;
+    height: auto;
+  }
+  /*icons*/
+  .footer-1 {
+   
+    width: 30%;
+  }
+  .footer-1 img{
+    margin-top: 30px;
+  }
+  .footer-1 p {
+    font-size: 8px;
+    margin-top: 7px;
+  }
+  .footer-1 i {
+    margin-top: 68px;
+    padding: 5px;
+    gap: 20px;
+  }
+  
+  /*quick link*/
+  .footer-2 {
+    width: 30%;
+  }
+  .footer-2 h2 {
+    margin-top: 30px;
+    margin-left: 32px;
+    font-size: 10px;
+    background: linear-gradient(60deg, #6272ff, #ad30e0);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    font-weight: 600;
+  }
+  .footer-2 ul {
+    margin-top: 25px;
+    list-style: none;
+  }
+  .footer-2 a{
+  font-size: 10px;
+  color: black;
+  }
+  
+  /*form  -footer*/
+  .footer-3 {
+    width: 20%;
+  }
+  .footer-3 h2 {
+    margin-top: 30px;
+    font-size: 10px;
+    background: linear-gradient(60deg, #6272ff, #ad30e0);
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+  }
+  .footer-3 form {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    margin-top: 35px;
+  }
+  .footer-3 form input {
+    width: 130px;
+    height: 24px;
+    outline: none;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 0 2px;
+  }
+  .footer-3 form input::placeholder {
+    font-size: 8px;
+    text-align: start;
+  }
+  .footer-3 form button {
+    width: 130px;
+    height: 24px;
+    font-size: 11px;
+    font-weight: 500;
+    text-align: center;
+    border-radius: 3px;
+    border: none;
+    box-shadow: 0 0 2px;
+  }
+  .footer-3 form button:hover {
+    color: white;
+    background: linear-gradient(135deg, #6272ff, #ad30e0);
+  }
+  
