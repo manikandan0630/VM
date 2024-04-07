@@ -29,6 +29,7 @@
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     background-size: 0%;
+    font-size: 20px;
 }
 
 .service h2{
@@ -70,39 +71,71 @@
     margin: 0 auto;
     
 }
+.our-service h1{
+    text-align: center;
+    font-size: 20px;
+}
 
+
+/* service card parent element*/
 .our-service-cards {
     display: grid;
     grid-template-columns: auto auto auto;
-    gap: 30px;
+    gap: 15px;
+    margin-top: 30px;
+
+}
+/*service card*/
+.service-card{
+    height: 250px;
+    box-shadow: 0 0 2px gray;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 30px;
+}
+/*icon*/
+.service-card i{
+    color: #c00de0;
 }
 
-.our-service h1{
+/*all service card h2 tag*/
+.service-card h2{
+ font-size: 12px;
+ display: flex;
+ gap:5px;
+ align-items: center;
+ margin-top: 10px;
+}
+/*all service card p tag*/
+.service-card p{
+    margin-top:10px;
+    font-size: 8px;
     text-align: center;
+   padding: 0px 10px;
 }
-.our-service-cards .btns{
+/*card image*/
+.service-card img{
+     border-radius: 5px;
+     width: 200px;
+     height: 100px;
+     scale: 1;
+     rotate: 0deg;
+     transition: all 0.5s  ;
+}
+.service-card img:hover{
+    scale: .05;
+    rotate: 180deg;
+}
+/*service card button*/
+.service-card .btns{
     margin-bottom: 10px;
+    margin-right: 20px;
 }
-/* all ervices button hover effect*/
-.our-service-cards .btns:hover{
+/* all services button hover effect*/
+.service-card .btns:hover{
     color:white;
     background:linear-gradient(135deg,#6272FF,#c00de0)
 }
-/* service card parent element*/
-.our-service-cards {
-    margin-top: 50px;
-}
-/*all service card h2 tag*/
-.our-service-cards h2{
- font-size: 12px;
-}
-/*all service card p tag*/
-.our-service-cards p{
-    margin-top:10px;
-    font-size: 10px;
-    text-align: start;
-}
-.our-service-cards img{
-     border-radius: 5px;
-}
-
