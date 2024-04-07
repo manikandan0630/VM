@@ -64,7 +64,7 @@
 .hero-1 button {
   width: 80px;
   padding: 5px;
-  border-radius: 2.5px;
+  border-radius:  30px;
   text-align: center;
   font-size: 10px;
   border: none;
@@ -88,8 +88,7 @@
 
 /*details */
 section h2 {
-  display: flex;
-  justify-content: center;
+ text-align: center;
 }
 .details {
   width: 90%;
