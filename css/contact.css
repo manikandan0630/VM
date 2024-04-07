@@ -52,11 +52,20 @@
 hr{
     width: 150px;
 }
+/*contact us hero-1*/
 .contact-hero-1{
-    width: 50%;
-    
+    width: 50%;    
 }
-
+.contact-hero-1 h3{
+  font-size: 15px;
+  text-align: start;
+}
+.contact-hero-1 i{
+  color: #c00de0;
+  font-size: 15px;
+  padding: 5px;
+}
+/*conatct us hero-2*/
 .contact-hero-2 {
     width: 100%;
     margin: 0 auto;
@@ -64,3 +73,54 @@ hr{
    justify-content: end;
    align-items: center;
 }
+
+
+/*contact us form*/
+form{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  margin-bottom: 50px;
+}
+/*form input*/
+form input{
+  border:none;
+  box-shadow: 0 0 2px;
+  border-radius: 30px;
+  padding: 8px 5px;
+  outline: none;
+}
+/*form textarea*/
+form textarea{
+  border: none;
+  outline: none; 
+  box-shadow:  0 0 2px;
+  border-radius: 10px;
+}
+/*form button*/
+form button{
+  outline: none;
+  border: none;
+  width: 80px;
+  padding: 5px 0;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 10px;
+  font-weight: 500;
+  box-shadow: 0 0 2px ;
+  background: #ffff;
+}
+form button:hover{
+  color:#fff;
+  background: linear-gradient(135deg,#6272ff,#c00de0);
+}
+
+/*form placeholder*/
+form ::placeholder{
+  font-size: 10px;
+  text-align: center;
+}
+
+

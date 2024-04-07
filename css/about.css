@@ -1,85 +1,86 @@
-*{
-    padding: 0;
-    margin: 0;
+* {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", sans-serif;
 }
 
 /*main*/
-main{
-    width: 90%;
-    margin: 0 auto;
+main {
+  width: 90%;
+  margin: 0 auto;
 }
-main h2{
-    font-size: 15px;
+main h2 {
+  font-size: 15px;
 }
 /*about*/
-.about{
-    margin: 30px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.about {
+  margin: 30px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
-.about h2{
-    background: linear-gradient(135deg,#6272ff,#ad30e0);
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    background-repeat: no-repeat;
-    animation:about 2.5s linear infinite alternate;
-    background-size: 0%;
-    font-weight: bold;   
+.about h2 {
+  background: linear-gradient(135deg, #6272ff, #ad30e0);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-repeat: no-repeat;
+  animation: about 2.5s linear infinite alternate;
+  background-size: 0%;
+  font-weight: bold;
 }
 
 @keyframes about {
-    0%{
-        background-size: 0%;
-    }
-    40%{
-        background-size: 40%;
-    }
-    100%{
-        background-size: 100%;
-    }
+  0% {
+    background-size: 0%;
+  }
+  40% {
+    background-size: 40%;
+  }
+  100% {
+    background-size: 100%;
+  }
 }
-.about p{
-    font-size: 9px;
-    inline-size: 500px;
-    overflow-x: break-word;
-    text-align: center;
-}
-/*our mission*/
-.our-mission{
-    margin:20px 0px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.about p {
+  font-size: 9px;
+  inline-size: 500px;
+  overflow-x: break-word;
+  text-align: center;
 }
 
-.our-mission p{
-    font-size: 9px;
-    inline-size: 500px;
-    overflow-x: break-word;
-    text-align: center;
+/*our mission*/
+.our-mission {
+  margin: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.our-mission p {
+  font-size: 9px;
+  inline-size: 500px;
+  overflow-x: break-word;
+  text-align: center;
 }
 
 /*section*/
 
 section h2 {
   text-align: center;
-  }
-  .details {
-    width: 90%;
-    margin: 0 auto 30px;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    gap: 40px;
-    text-align: center;
-    
-  }
-  .details h3 {
-    font-size: 12px;
-  }
-  .details p {
-    font-size: 10px;
-  }
-  .details i {
-    color: #ad30e0;
-  }
+}
+.details {
+  width: 90%;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  gap:30px;
+  text-align: center;
+}
+.details h3 {
+  font-size: 12px;
+}
+.details p {
+  font-size: 10px;
+}
+.details i {
+  color: #ad30e0;
+}

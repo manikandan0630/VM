@@ -19,7 +19,7 @@ header {
 .menulist {
   width: 60%;
   display: flex;
-  gap: 20px;
+  gap: 10px;
   justify-content: center;
   margin: 0px auto 3px;
 }
@@ -44,12 +44,11 @@ header {
   background: #ffffff;
   margin: 5px 0;
   width: 80px;
-  /* height: 25px; */
   font-size: 8px;
   font-weight: 500;
   text-align: center;
   border-radius: 28px;
-  box-shadow: 0 0 5px;
+  box-shadow: 0 0 3px;
 }
 .menu button:hover {
   color: white;
