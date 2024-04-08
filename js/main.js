@@ -1,3 +1,5 @@
+
+//nav bar start
 let bar=document.getElementById("bar")
 let mark=document.getElementById("mark")
 //addevent listener
@@ -25,3 +27,5 @@ bar.addEventListener("click",()=>{
     })
    
 })
+
+//navbar end
