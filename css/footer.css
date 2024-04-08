@@ -85,7 +85,6 @@ footer {
 }
 
 .footer-3 form input {
-
   padding: 2px;
   outline: none;
   border-radius: 3px;
@@ -113,4 +112,33 @@ footer {
 .footer-3 form button:hover {
   color: white;
   background: linear-gradient(135deg, #6272ff, #ad30e0);
+}
+
+@media only screen  and (max-width:576px){
+  /*main footer*/
+  .foot {
+    width: 85%;
+    margin: 0 auto ;
+    flex-direction: column;
+  }
+  /*foooter icons and logo*/
+.footer-1{
+  width: 60%;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-1 img {
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.footer-1 p {
+  font-size: 8px;
+  margin-top: 10px;
+}
+.footer-1 i{
+  margin-top: 10px;
+}
+/*footer 2 for ul menu list*/
+
 }

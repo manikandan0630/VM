@@ -92,7 +92,7 @@
     border-radius: 5px;
     display: flex;
     flex-direction: column;
-     justify-content: center;
+    justify-content: center;
     align-items: center; 
     margin-bottom: 30px;
 }
@@ -149,4 +149,27 @@
 .get-started p{
     font-size: 8px;
     text-align: center;
+}
+.get-started .btns:hover{
+    color: #fff;
+    background: linear-gradient(135deg,#6272FF,#c00de0);
+}
+
+/*media query*/
+@media only screen and (max-width:576px) {
+    /* service card parent element*/
+.our-service-cards {
+    display: grid;
+    grid-template-columns: auto ;
+    gap: 15px;
+    margin-top: 30px;
+
+}
+.service-card{
+    width: 75%;
+    margin: 0 auto;
+}
+.get-started{
+    width: 75%;
+}
 }

@@ -22,8 +22,6 @@
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   animation: contact 2.5s linear infinite alternate;
-
- 
 }
 @keyframes contact {
   0% {
@@ -42,41 +40,40 @@
 
 /*contact mennu*/
 
-.contact-hero{
-    width: 90%;
-    margin: 0 auto;
-    display: flex;
-    gap: 10px;
-    justify-content: space-evenly;
+.contact-hero {
+  width: 90%;
+  margin: 0 auto;
+  display: flex;
+  gap: 10px;
+  justify-content: space-evenly;
 }
-hr{
-    width: 150px;
+hr {
+  width: 150px;
 }
 /*contact us hero-1*/
-.contact-hero-1{
-    width: 50%;    
+.contact-hero-1 {
+  width: 50%;
 }
-.contact-hero-1 h3{
+.contact-hero-1 h3 {
   font-size: 15px;
   text-align: start;
 }
-.contact-hero-1 i{
+.contact-hero-1 i {
   color: #c00de0;
   font-size: 15px;
   padding: 5px;
 }
 /*conatct us hero-2*/
 .contact-hero-2 {
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-   justify-content: end;
-   align-items: center;
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: end;
+  align-items: center;
 }
 
-
 /*contact us form*/
-form{
+form {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -85,22 +82,22 @@ form{
   margin-bottom: 50px;
 }
 /*form input*/
-form input{
-  border:none;
+form input {
+  border: none;
   box-shadow: 0 0 2px;
   border-radius: 30px;
   padding: 8px 5px;
   outline: none;
 }
 /*form textarea*/
-form textarea{
+form textarea {
   border: none;
-  outline: none; 
-  box-shadow:  0 0 2px;
+  outline: none;
+  box-shadow: 0 0 2px;
   border-radius: 10px;
 }
 /*form button*/
-form button{
+form button {
   outline: none;
   border: none;
   width: 80px;
@@ -109,18 +106,42 @@ form button{
   text-align: center;
   font-size: 10px;
   font-weight: 500;
-  box-shadow: 0 0 2px ;
+  box-shadow: 0 0 2px;
   background: #ffff;
 }
-form button:hover{
-  color:#fff;
-  background: linear-gradient(135deg,#6272ff,#c00de0);
+form button:hover {
+  color: #fff;
+  background: linear-gradient(135deg, #6272ff, #c00de0);
 }
 
 /*form placeholder*/
-form ::placeholder{
+form ::placeholder {
   font-size: 10px;
   text-align: center;
 }
 
-
+@media only screen and (max-width: 576px) {
+  .contact-hero {
+    width: 85%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .contact-hero-1 {
+    width: 85%;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contact-hero-1 h3 {
+    font-size: 15px;
+    text-align: center;
+  }
+  hr {
+    margin: 0 140px !important;
+  }
+  .contact-hero-2 img {
+    width: 85%;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+  }
+}
