@@ -33,7 +33,3 @@ bar.addEventListener("click",()=>{
 
 //map test
 
-let ar=[{name:"veni",age:22}]
-document.write(ar.map((ele)=>{
-    return  `${ele.name} <br>${ele.age}`
-}))
