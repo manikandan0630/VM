@@ -16,7 +16,7 @@
   margin: 0 auto;
 }
 /*animation*/
-.hero-1 h2 span{
+.hero-1 h1 span{
   background: linear-gradient(90deg,#144deb,#c00de0);
   background-repeat: no-repeat;
   -webkit-text-fill-color: transparent;
@@ -24,11 +24,11 @@
   background-size: 0%;
 }
 
-.hero-1 h2 span:first-child{
+.hero-1 h1 span:first-child{
   animation: textColor 3s infinite linear alternate;
 }
 
-.hero-1 h2 span:last-child{
+.hero-1 h1 span:last-child{
   animation: textColor2 3s infinite linear alternate;
 }
 
